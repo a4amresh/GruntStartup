@@ -1,0 +1,8 @@
+{
+  "name": "gruntstartup",
+  "main": "index.html",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "~2.2.4"
+  }
+}

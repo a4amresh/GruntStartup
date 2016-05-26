@@ -1,0 +1,19 @@
+{
+  "name": "gruntstartup",
+  "version": "1.0.0",
+  "description": "Grunt js test",
+  "main": "index.js",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amrishpal/GruntStartup.git"
+  },
+  "author": "Amrish Pal",
+  "license": "ISC"
+}
