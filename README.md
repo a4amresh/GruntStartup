@@ -1,2 +1,2 @@
 # GruntStartup
-Grunt js test
+Gruntjs blank project ready to use

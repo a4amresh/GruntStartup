@@ -1,8 +1,15 @@
 {
-  "name": "gruntstartup",
-  "main": "index.html",
+  "name": "grunjs",
+  "version": "1.0.0",
+  "description": "Gruntjs blank project",
+  "keywords": [
+    "gruntjs",
+    "html5"
+  ],
+  "author": "Amrish Pal",
   "license": "MIT",
   "devDependencies": {
-    "jquery": "~2.2.4"
+    "bootstrap-sass": "^3.3.6",
+    "jquery": "^2.2.4"
   }
 }
