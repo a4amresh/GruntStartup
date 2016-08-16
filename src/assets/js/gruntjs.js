@@ -1,2 +1,2 @@
 console.log("Main.js");
-console.log("Custom.js");
+console.log("Custom js");

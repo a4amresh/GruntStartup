@@ -24,7 +24,8 @@ module.exports = function(grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    'src/assets/css/<%= pkg.name%>.css': "src/assets/sass/project.scss"
+                    'src/assets/css/<%= pkg.name%>.css': "src/assets/sass/project.scss",
+                    'src/assets/css/<%= pkg.name%>.framwork.css': "src/assets/sass/framwork.scss"
                 }
             }
         },
@@ -40,12 +41,17 @@ module.exports = function(grunt) {
             libsJs: {
                 src: ['<%= files.js.libs %>'],
                 dest: "src/assets/js/<%= pkg.name%>.libs.js"
+            },
+            framwork: {
+                src: ['<%= files.js.framwork %>'],
+                dest: "src/assets/js/<%= pkg.name%>.framwork.js"
             }
         },
         cssmin: {
             main: {
                 files: {
                     'src/assets/css/<%= pkg.name%>.min.css': "src/assets/css/<%= pkg.name%>.css",
+                    'src/assets/css/<%= pkg.name%>framwork.min.css': 'src/assets/css/<%= pkg.name%>.framwork.css',
                     "src/assets/css/<%= pkg.name%>.libs.min.css": ['<%= files.css %>']
                 }
             }
@@ -54,6 +60,7 @@ module.exports = function(grunt) {
             main: {
                 files: {
                     "src/assets/js/<%= pkg.name%>.min.js": ['src/assets/js/<%= pkg.name%>.js'],
+                    "src/assets/js/<%= pkg.name%>.framwork.min.js": ['src/assets/js/<%= pkg.name%>.framwork.js'],
                     "src/assets/js/<%= pkg.name%>.libs.min.js": ['src/assets/js/<%= pkg.name%>.libs.js']
                 }
             }

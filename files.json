@@ -8,8 +8,10 @@
             "src/assets/libs/projectJs/custom.js"
         ],
         "libs": [
-            "src/assets/libs/apPlugin/apPagination.js",
-            "src/assets/libs/apPlugin/apPopup.js"
+            "src/assets/libs/apPlugin/apPagination.js"
+        ],
+        "framwork": [
+            "src/assets/framwork/bootstrap-sass/assets/javascripts/bootstrap.js"
         ]
     }
 }
